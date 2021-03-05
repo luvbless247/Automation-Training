@@ -32,6 +32,7 @@ public class YahooL {
 	File scr=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(scr, new File("C:\\Users\\GB\\Desktop\\images\\homepage" + timestamp + ".png"));
 System.out.println("thank you very much GITHUB and is working fine")
+System.out.println("thank you very much GITHub")
 	}
 	
 	@When("^user enter correct username$")
@@ -39,6 +40,7 @@ System.out.println("thank you very much GITHUB and is working fine")
 	driver.findElement(By.name("username")).sendKeys("favour.amughoro@yahoo.com");
 	driver.findElement(By.id("login-signin")).click();
 System.out.println("i have seen it and correct the errors, thanks. and is working fine.")
+System.out.println("thank you very much GITHUB and is working fine")
 	
 	}
 	
