@@ -31,14 +31,14 @@ public class YahooL {
 	String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
 	File scr=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(scr, new File("C:\\Users\\GB\\Desktop\\images\\homepage" + timestamp + ".png"));
-System.out.println("thank you very much GITHUB")
+System.out.println("thank you very much GITHUB and is working fine")
 	}
 	
 	@When("^user enter correct username$")
 	public void user_enter_correct_username() {
 	driver.findElement(By.name("username")).sendKeys("favour.amughoro@yahoo.com");
 	driver.findElement(By.id("login-signin")).click();
-System.out.println("i have seen it and correct the errors, thanks")
+System.out.println("i have seen it and correct the errors, thanks. and is working fine.")
 	
 	}
 	
