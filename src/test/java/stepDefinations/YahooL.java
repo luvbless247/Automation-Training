@@ -33,6 +33,7 @@ public class YahooL {
 	FileUtils.copyFile(scr, new File("C:\\Users\\GB\\Desktop\\images\\homepage" + timestamp + ".png"));
 System.out.println("thank you very much GITHUB and is working fine")
 System.out.println("thank you very much GITHub")
+System.out.println("from my window pc okay")
 	}
 	
 	@When("^user enter correct username$")
