@@ -34,6 +34,7 @@ public class YahooL {
 System.out.println("thank you very much GITHUB and is working fine")
 System.out.println("thank you very much GITHub")
 System.out.println("from my window pc okay")
+System.out.println("commit me")
 	}
 	
 	@When("^user enter correct username$")
@@ -42,6 +43,7 @@ System.out.println("from my window pc okay")
 	driver.findElement(By.id("login-signin")).click();
 System.out.println("i have seen it and correct the errors, thanks. and is working fine.")
 System.out.println("thank you very much GITHUB and is working fine")
+System.out.println("commit me")
 	
 	}
 	
