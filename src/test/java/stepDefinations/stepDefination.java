@@ -18,6 +18,7 @@ import cucumber.api.junit.Cucumber;
 		@Given("^User is on landing page$")
 		public void user_is_on_landing_page() {
 			System.out.println("Navigated to landing page");
+		System.out.println("dont commit me")
 
 		}
 
