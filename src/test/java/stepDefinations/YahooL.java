@@ -38,6 +38,7 @@ System.out.println("thank you very much GITHUB")
 	public void user_enter_correct_username() {
 	driver.findElement(By.name("username")).sendKeys("favour.amughoro@yahoo.com");
 	driver.findElement(By.id("login-signin")).click();
+System.out.println("i have seen it and correct the errors, thanks")
 	
 	}
 	
